@@ -26,7 +26,6 @@ body{
 }
 nav{
     background-color: black;
-    flex-direction: row;
     height: 70px;
     font-size: 1.5em;
     padding-top: 20px;
@@ -52,25 +51,26 @@ header{
     background-size: cover;
     background-attachment: fixed;
     text-shadow: black;
+    display:flex;
+    justify-content: center;
+    align-items: center
 }
 section.header-content{
   z-index: 2;
   text-shadow: 2px 3px black;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  
 }
 .main-heading{
   font-size: 8.5em;
-  position: absolute;
-  right: 780px;
-  top: 300px;
 
 }
 .sub-heading{
    color: white;
    font-family: 'Dancing Script';
    font-size: 5em;
-   position: absolute;
-   right: 580px;
-   top: 380px;
 }
 main{
   z-index: 2;
